@@ -26,6 +26,15 @@ Recommender Systems are one of the most popular and widely used application of d
 
 ===============================================================================
 
+## 2. Types of Recommender System
+
+-	There are two major approaches to build recommender systems: 
+
+1.	Content-Based Filtering – based on product attributes.
+
+2.	Collaborative Filtering – based on similar users.
+
+
 ===============================================================================
 
 ===============================================================================
