@@ -26,7 +26,7 @@ Recommender Systems are one of the most popular and widely used application of d
 
 ===============================================================================
 
-## 2. Types of Recommender System
+## 2. Types of Recommender Systems
 
 -	There are two major approaches to build recommender systems: 
 
