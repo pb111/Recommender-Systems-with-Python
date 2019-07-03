@@ -5,9 +5,23 @@ Recommender Systems are one of the most popular and widely used application of d
 
 ===============================================================================
 
-
 ## Table of Contents
 
+1.	Introduction to Recommender Systems
+2.	Recommender Systems mechanism
+    -	Data collection
+    -	Data storage
+    -	Filtering the data
+3.	Collaborative filtering recommender system
+4.	Content-based filtering recommender system
+5.	Multi-criteria recommender systems
+6.	Risk aware recommender systems
+7.	Mobile recommender systems
+8.	Hybrid recommender systems
+9.	Introduction to matrix factorization
+10.	Evaluating recommender systems
+11.	Applications of recommender systems
+12.	References
 
 ===============================================================================
 
