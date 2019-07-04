@@ -143,7 +143,7 @@ There are several other approaches for recommender systems used in practice. The
 -	Social network companies like Facebook, originally used collaborative filtering to recommend new friends and groups by examining the network of connections between a user and their friends.
 -	The diagram below demonstrates collaborative filtering recommender systems.
 
-# D ! [Collaborative filtering recommender system]
+![Collaborative filtering recommender system](https://github.com/pb111/Recommender-Systems-with-Python/blob/master/Images/Collaborative%20filtering.png)
 
 ===============================================================================
 
