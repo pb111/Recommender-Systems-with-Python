@@ -306,6 +306,15 @@ Some hybridization techniques include:
 
 ===============================================================================
 
+## 11. Applications of Recommender Systems
+
+-	There are lots of applications of recommender systems in data science field.
+-	The music and video companies like Netflix, Youtube and Spotify use them to generate music and video recommendations.
+-	Amazon use it for product recommendations.
+-	Social media platforms such as Facebook and Twitter use them for friends and content recommendations.
+-	Restaurants and hotels use recommender systems to generate food related recommendations.
+-	Recommender systems found applications in research articles, financial services and life insurance.
+
 ===============================================================================
 
 ===============================================================================
