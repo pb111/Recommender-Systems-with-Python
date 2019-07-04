@@ -102,7 +102,7 @@ Recommender Systems are one of the most popular and widely used application of d
 2.	Content-Based Filtering – based on product attributes.
 -	The difference between the above two approaches are shown in the following diagram-
 
-# D ! [Collaborative filtering vs Content-based filtering]
+![Collaborative filtering vs Content-based filtering](https://github.com/pb111/Recommender-Systems-with-Python/blob/master/Images/Collaborative%20and%20Content-based%20recommender%20system.png)
 
 
 There are several other approaches for recommender systems used in practice. These are discussed in later sections. At first, I will discuss the above two approaches.
