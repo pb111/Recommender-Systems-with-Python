@@ -162,7 +162,7 @@ There are several other approaches for recommender systems used in practice. The
 -	The diagram below demonstrates content-based filtering recommender systems.
 
 
-# D ! [Content-based filtering recommender system]
+![Content-based filtering recommender system](https://github.com/pb111/Recommender-Systems-with-Python/blob/master/Images/Content%20based%20filtering.png)
 
 ===============================================================================
 
