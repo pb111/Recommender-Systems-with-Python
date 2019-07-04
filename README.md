@@ -40,6 +40,73 @@ Recommender Systems are one of the most popular and widely used application of d
 
 ===============================================================================
 
+## 2. Recommender Systems mechanism
+
+-	In this section, I will focus on recommender systems mechanism, i.e. how a recommender systems work.
+-	Basically, a recommendation engine filters the data using different algorithms and recommends the most relevant items to users.
+-	It first studies the past behaviour of a customer and based on that recommends products which he might buy.
+-	The working of recommender systems is shown in the following diagram-
+
+# D ! [Recommender System Mechanism]
+
+-	Now, we can recommend products to users in different ways.
+-	We can recommend items to a user which are most popular among all the users.
+-	We can divide the users into multiple segments and based on their preferences we recommend items to them.
+-	The working of a recommendation engine can be categorized in three steps-
+1.	Data collection
+2.	Data storage
+3.	Filtering the data
+
+
+-	These steps are explained below:-
+
+### 1. Data collection
+
+-	The first step in building a recommendation engine is data collection.
+-	There are two forms of data collection techniques employed in recommender systems.
+-	These are **explicit** and **implicit** forms of data collection.
+-	**Explicit data** is information that is provided intentionally, i.e. input from the users such as movie ratings. 
+-	**Implicit data** is information that is not provided intentionally but gathered from available data streams like search history, clicks, order history, etc.
+
+
+**Examples of explicit data collection include the following:**
+-	Asking a user to rate an item on a sliding scale.
+-	Asking a user to search.
+-	Asking a user to rank a collection of items from favorite to least favorite.
+-	Presenting two items to a user and asking him/her to choose the better one of them.
+-	Asking a user to create a list of items that he/she likes.
+
+
+**Examples of implicit data collection include the following:**
+-	Observing the items that a user views in an online store.
+-	Analyzing item/user viewing times. 
+-	Keeping a record of the items that a user purchases online.
+-	Obtaining a list of items that a user has listened to or watched on his/her computer.
+-	Analyzing the user's social network and discovering similar likes and dislikes.
+
+
+### 2. Data storage
+
+-	The second step in building a recommendation engine is data storage.
+-	The amount of data storage dictates how good the recommendations of the model are.
+-	For example, in a movie recommendation system, the more ratings users give to movies, the better the recommendations get for other users. 
+-	The type of data plays an important role in deciding the type of storage that has to be used. 
+-	This type of storage could include a standard SQL database, a NoSQL database or some kind of object storage.
+
+
+### 3. Filtering the data
+
+-	The third and final step in building a recommendation engine is filter the data to extract relevant information required to make final recommendations.
+-	There are two major approaches to filter the data to extract relevant information. These are as follows:- 
+1.	Collaborative Filtering – based on similar users.
+2.	Content-Based Filtering – based on product attributes.
+-	The difference between the above two approaches are shown in the following diagram-
+
+# D ! [Collaborative filtering vs Content-based filtering]
+
+
+There are several other approaches for recommender systems used in practice. These are discussed in later sections. At first, I will discuss the above two approaches.
+
 ===============================================================================
 
 ===============================================================================
