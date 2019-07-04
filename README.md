@@ -229,6 +229,45 @@ Some hybridization techniques include:
 
 ===============================================================================
 
+## 9. Introduction to Matrix Factorization
+
+-	**Matrix factorization** is a class of collaborative filtering algorithms used in recommender systems.
+-	**Matrix factorization** algorithms work by decomposing the user-item interaction matrix into the product of two lower dimensionality rectangular matrices.
+-	It became widely known during the Netflix prize challenge due to its effectiveness as reported by Simon Funk in 2006.
+-	The idea behind matrix factorization is to represent users and items in a lower dimensional latent space.
+-	Matrix factorization can be demonstrated by the following diagram-
+
+# D ! [Matrix Factorization]
+
+-	Nowadays, different types of matrix factorization approaches are used in practice.
+-	Most popular used matrix factorization approaches are discussed below.
+
+### Funk SVD
+
+-	**Funk SVD** is the original algorithm proposed by Simon Funk.
+-	He factorized the user-item rating matrix as the product of two lower dimensional matrices – the first one has a row for each user while the second one has a column for each item.
+-	The row or column associated to a specific user or item is referred to as **latent factors**.
+-	Despite its name, in Funk SVD, no singular value decomposition is applied.
+
+
+### SVD ++
+
+-	FunkSVD is able to provide very good recommendation quality, its ability to use only explicit numerical ratings as user-items interactions constitutes a limitation. 
+-	Modern day recommender systems should exploit all available interactions both explicit (e.g. numerical ratings) and implicit (e.g. likes, purchases, skipped, bookmarked). 
+-	Keeping this in mind, SVD++ was designed to take into account implicit interactions as well. 
+-	As compared to FunkSVD, SVD++ takes also into account user and item bias.
+
+
+### Asymmetric SVD
+
+-	Asymmetric SVD aims at combining the advantages of SVD++ while being a model based algorithm.
+-	Therefore it is able to consider new users with a few ratings without needing to retrain the whole model. 
+
+### Hybrid Matrix Factorization
+
+-	In recent years many other matrix factorization models have been developed to exploit the ever increasing amount and variety of available interaction data and use cases. 
+-	Hybrid matrix factorization algorithms are capable of merging explicit and implicit interactions or both content and collaborative data
+
 ===============================================================================
 
 ===============================================================================
