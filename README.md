@@ -237,7 +237,7 @@ Some hybridization techniques include:
 -	The idea behind matrix factorization is to represent users and items in a lower dimensional latent space.
 -	Matrix factorization can be demonstrated by the following diagram-
 
-# D ! [Matrix Factorization]
+![Matrix Factorization](https://github.com/pb111/Recommender-Systems-with-Python/blob/master/Images/Matrix%20factorization.png)
 
 -	Nowadays, different types of matrix factorization approaches are used in practice.
 -	Most popular used matrix factorization approaches are discussed below.
