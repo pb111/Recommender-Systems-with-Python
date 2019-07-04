@@ -147,6 +147,23 @@ There are several other approaches for recommender systems used in practice. The
 
 ===============================================================================
 
+## 4. Content-based filtering recommender system
+
+-	Another common approach when designing recommender systems is **content-based filtering**. 
+-	Content-based filtering methods are based on a description of the item and a profile of the user’s preferences.
+-	These methods are best suited to situations where there is known data on an item (name, location, description, etc.), but not on the user. 
+-	In content based filtering recommender system, the similarity between different products is calculated on the basis of the attributes of the products.
+-	The system uses the knowledge of each product to recommend a new product.
+-	Content-based filtering approaches utilize a series of discrete characteristics of an item in order to recommend additional items with similar properties.
+-	For example, in a content based movie recommender system, the similarities between the movies is calculated on the basis of genres, the actors and the director.
+-	The general idea behind these recommender systems is that if a person liked a particular item, then he will also like an item similar to it.
+-	Content-based recommenders treat recommendation as a user-specific classification problem and learn a classifier for the user's likes and dislikes based on product features.
+
+-	The diagram below demonstrates content-based filtering recommender systems.
+
+
+# D ! [Content-based filtering recommender system]
+
 ===============================================================================
 
 ===============================================================================
