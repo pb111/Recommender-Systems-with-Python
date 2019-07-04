@@ -166,7 +166,23 @@ There are several other approaches for recommender systems used in practice. The
 
 ===============================================================================
 
+## 5. Multi-criteria recommender systems
+
+-	Multi-criteria recommender systems (MCRS) can be defined as recommender systems that incorporate preference information upon multiple criteria. 
+-	Instead of developing recommendation techniques based on a single criterion values, the overall preference of user u for the item i, these systems try to predict a rating for unexplored items of u by exploiting preference information on multiple criteria that affect this overall preference value. 
+-	Researchers approach MCRS as a multi-criteria decision making (MCDM) problem, and apply MCDM methods and techniques to implement MCRS systems.
+
 ===============================================================================
+
+## 6. Risk-aware recommender systems
+
+-	The existing approaches to recommender systems focus on recommending the most relevant content to users using contextual information. 
+-	They do not take into account the risk of disturbing the user with unwanted notifications. 
+-	It is important to consider the risk of disturbing the user by pushing recommendations in certain circumstances. 
+-	For example, during a professional meeting, early morning, or late at night. 
+-	Therefore, the performance of the recommender system depends to an extent how much risk it has incorporated into the recommendation process. 
+-	One option to manage this issue is DRARS, a system which models the context-aware recommendation as a bandit problem. 
+-	This system combines a content-based technique and a contextual bandit algorithm.
 
 ===============================================================================
 
