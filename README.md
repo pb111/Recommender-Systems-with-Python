@@ -186,6 +186,15 @@ There are several other approaches for recommender systems used in practice. The
 
 ===============================================================================
 
+## 7. Mobile recommender systems
+
+-	Mobile recommender systems make use of internet-accessing smart phones to offer personalized and context-sensitive recommendations. 
+-	There are three factors that could affect the mobile recommender systems and the accuracy of prediction results: the context, the recommendation method and privacy.
+-	Additionally, mobile recommender systems suffer from a transplantation problem – recommendations may not apply in all regions.
+-	One example of a mobile recommender system are the approaches taken by companies such as Uber and Lyft to generate driving routes for taxi drivers in a city.
+-	This system uses GPS data of the routes that taxi drivers take while working. It includes location (latitude and longitude), time stamps, and operational status (with or without passengers). 
+-	It uses this data to recommend a list of pickup points along a route, with the goal of optimizing occupancy times and profits.
+
 ===============================================================================
 
 ===============================================================================
