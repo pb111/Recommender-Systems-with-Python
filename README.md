@@ -197,6 +197,30 @@ There are several other approaches for recommender systems used in practice. The
 
 ===============================================================================
 
+## 8. Hybrid recommender systems
+
+-	Most recommender systems now use a hybrid approach. 
+-	It means to combine collaborative filtering, content-based filtering and other approaches.
+-	Hybrid approaches can be implemented in several ways which are as follows: 
+1.	By making content-based and collaborative-based predictions separately and then combining them. 
+2.	By adding content-based capabilities to a collaborative-based approach (and vice versa) or 
+3.	By combining the approaches into one model.
+
+-	An example of hybrid recommender systems is Netflix website. 
+
+-	The website makes recommendations by comparing the watching and searching habits of similar users (collaborative filtering) as well as by offering movies that share characteristics with films that a user has rated highly (content-based filtering).
+
+Some hybridization techniques include:
+
+•	**Weighted**: Combining the score of different recommendation components numerically.
+•	**Switching**: Choosing among recommendation components and applying the selected one.
+•	**Mixed**: Recommendations from different recommenders are presented together to give the recommendation.
+•	**Feature Combination**: Features derived from different knowledge sources are combined together and given to a single recommendation algorithm.
+•	**Feature Augmentation**: Computing a feature or set of features, which is then part of the input to the next technique.
+•	**Cascade**: Recommenders are given strict priority, with the lower priority ones breaking ties in the scoring of the higher ones.
+•	**Meta-level**: One recommendation technique is applied and produces some sort of model, which is then the input used by the next technique. 
+
+
 ===============================================================================
 
 ===============================================================================
