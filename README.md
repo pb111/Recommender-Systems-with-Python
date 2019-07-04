@@ -109,6 +109,42 @@ There are several other approaches for recommender systems used in practice. The
 
 ===============================================================================
 
+## 3. Collaborative filtering recommender system
+
+-	In the collaborative filtering recommender system, the behaviour of a group of users is used to make recommendations to other users.
+-	In this case, the system don’t have any knowledge about the product. 
+-	Collaborative filtering approach build a model from a user’s past behaviour (items previously purchased or selected and/or numerical ratings given to those items) as well as similar decisions made by other users. 
+-	This model is then used to predict items (or ratings for items) that the user may have an interest in.
+-	It recommends based on the user’s rating in the past.
+-	These systems try to predict the user’s rating or preferences based on past rating or preferences of other users.
+-	These filters do not require item metadata to make predictions.
+-	There are two types of collaborative filtering recommender system. They are:-
+
+1.	**User-based collaborative filtering**
+
+-	In this method products are recommended to a user based on the fact that the products have been liked by users similar to the user. 
+
+2.	**Item-based collaborative filtering**
+-	This method identifies and predict similar items based on users’ previous ratings. 
+
+-	Collaborative filtering methods are also classified as **memory-based** and **model-based**.
+-	An example of memory-based approach is the user-based algorithm while that of model-based approach is Kernel-Mapping Recommender.
+-	Collaborative filtering approaches often suffer from three problems - **cold start**, **scalability** and **sparsity**. These are discussed below:-
+
+1.	**Cold start**
+-	Cold start refers to a problem, when for a new user or item there is not enough data to make recommendations.
+
+2.	**Scalability**
+-	To make recommendations, we need to choose from millions of users and products. So scalability means a large amount of computation power is required to make recommendations.
+
+3.	**Sparsity**
+-	The number of items sold on e-commerce portals are extremely large. The most active users will only have rated a small subset of overall database. Thus, even the most popular items have very few ratings.
+-	Most famous example of collaborative filtering is item-to-item collaborative filtering (people who buy x also buy y). This algorithm is popularized by Amazon recommender system.
+-	Social network companies like Facebook, originally used collaborative filtering to recommend new friends and groups by examining the network of connections between a user and their friends.
+-	The diagram below demonstrates collaborative filtering recommender systems.
+
+# D ! [Collaborative filtering recommender system]
+
 ===============================================================================
 
 ===============================================================================
