@@ -270,6 +270,40 @@ Some hybridization techniques include:
 
 ===============================================================================
 
+## 10. Evaluating recommender systems
+
+-	Once we develop a recommender system, we want to evaluate them.
+-	Evaluation is important in assessing the effectiveness of recommender systems.
+-	To measure the effectiveness of recommender systems, three types of evaluations are available – **user studies**, **online evaluations (A/B tests)** and **offline evaluations**.
+-	The commonly used metrics are the **mean squared error (MSE)** and **root mean squared error(RMSE)**.
+-	The information retrieval metrics such as **precision** and **recall** are useful to assess the quality of a recommender system.
+-	**Diversity**, **novelty** and **coverage** are also considered as important aspects in evaluation.
+-	**User studies** are rather small scale judgement technique. A few dozens or hundreds of users are presented recommendations created by different recommendation approaches, and then the users’ judge which recommendations are the best.
+-	In **A/B tests**, recommendations are shown to thousands of users of a real product, and the recommender system randomly picks at least two different recommendation approaches to generate recommendations. The effectiveness is measured with implicit measures of effectiveness such as conversion rate or click-through rate.
+-	**Offline evaluations** are based on historic data. For example, a dataset that contains information about how users previously rated movies.
+-	The effectiveness of recommendation system is then measured based on how well a recommendation approach can predict the users' ratings in the dataset.
+
+### Beyond measures of accuracy
+-	Research on recommender systems is focussed towards finding the most accurate recommendation algorithms. There are a number of factors that are also important. These are discussed below.
+
+-	**Diversity** – Users tend to be more satisfied with recommendations when there is a higher intra-list diversity. For example, items from different artists.
+
+-	**Recommender persistence** – Sometimes, it is more effective to re-show recommendations than showing new items. There are several reasons for this. Users may ignore items when they are shown for the first time. May be they do not inspect the recommendations initially.
+
+-	**Privacy** – Recommender systems usually have to deal with privacy concerns because users have to reveal sensitive information. 
+
+-	**User demographics** – User demographics may influence how satisfied users are with recommendations.
+
+
+-	**Robustness** – When users can participate in the recommender system, the issue of fraud must be addressed.
+
+-	**Serendipity** – Serendipity is a measure of how surprising the recommendations are. For instance, a recommender system that recommends milk to a customer in a grocery store might be perfectly accurate. But it is not a good recommendation because it is an obvious item for the customer to buy.
+
+-	**Trust** – A recommender system is of little value for a user if the user does not trust the system. Trust can be built by a recommender system by explaining how it generates recommendations, and why it recommends an item.
+
+-	**Labelling** – User satisfaction with recommendations may be influenced by the labelling of the recommendations.
+
+
 ===============================================================================
 
 ===============================================================================
