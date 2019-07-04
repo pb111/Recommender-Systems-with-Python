@@ -47,7 +47,7 @@ Recommender Systems are one of the most popular and widely used application of d
 -	It first studies the past behaviour of a customer and based on that recommends products which he might buy.
 -	The working of recommender systems is shown in the following diagram-
 
-# D ! [Recommender System Mechanism]
+! [Recommender System Mechanism](https://github.com/pb111/Recommender-Systems-with-Python/blob/master/Images/Recommender%20system.jpg)
 
 -	Now, we can recommend products to users in different ways.
 -	We can recommend items to a user which are most popular among all the users.
