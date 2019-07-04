@@ -213,11 +213,17 @@ There are several other approaches for recommender systems used in practice. The
 Some hybridization techniques include:
 
 •	**Weighted**: Combining the score of different recommendation components numerically.
+
 •	**Switching**: Choosing among recommendation components and applying the selected one.
+
 •	**Mixed**: Recommendations from different recommenders are presented together to give the recommendation.
+
 •	**Feature Combination**: Features derived from different knowledge sources are combined together and given to a single recommendation algorithm.
+
 •	**Feature Augmentation**: Computing a feature or set of features, which is then part of the input to the next technique.
+
 •	**Cascade**: Recommenders are given strict priority, with the lower priority ones breaking ties in the scoring of the higher ones.
+
 •	**Meta-level**: One recommendation technique is applied and produces some sort of model, which is then the input used by the next technique. 
 
 
